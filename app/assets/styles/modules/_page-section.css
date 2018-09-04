@@ -1,0 +1,33 @@
+.page-section{
+    padding: 1.2rem 0;
+    
+
+  &--blue{
+    background-color: #0f1f2f;
+  }
+  @mixin atMedium{
+    padding: 4.5rem 0;
+
+  }
+
+  &--testimonials{
+
+    position:relative;
+    background: linear-gradient(to right bottom, rgba(249, 141, 0, 0.1), rgba(128, 73, 0, 0.6));
+  }
+  &--testimonials::after{
+    background:  url('/assets/images/testimonials-bg.jpg') top;
+    background-size:cover;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    content: "";
+    opacity: 0.3;
+    background-attachment: fixed;
+
+  }
+
+}

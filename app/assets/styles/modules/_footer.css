@@ -1,0 +1,9 @@
+.footer{
+  background-color: $mainBlue;
+  color: $mainWhite;
+  border:solid  $mainBlue 1px;
+  text-align: center;
+  .btn{
+    margin-left: 5rem;
+  }
+}

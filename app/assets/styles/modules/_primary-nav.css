@@ -1,0 +1,48 @@
+.primary-nav{
+
+  &--pull-right{
+    float:right;
+    @mixin atMedium{
+    float:right;
+    }
+  }
+
+  ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    @mixin clearfix;
+  }
+  ul li{
+    @mixin atMedium{
+    float:left;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 12px;
+    }
+  }
+  a{
+    color: $mainWhite;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 1rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 240%;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+
+  }
+  a:hover, a:active{
+    background-position: 100%;
+    color: $mainBlue;
+    -webkit-transform: translateX(1rem);
+    transform: translateX(1rem);
+  }
+
+
+}

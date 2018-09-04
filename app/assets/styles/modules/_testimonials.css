@@ -1,0 +1,41 @@
+.testimonials{
+
+  background-color: hsla(0,0%,100%,.5);
+  position:relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 2px;
+  padding-bottom: 20px;
+
+&__photo{
+  border-radius: 50%;
+  border: solid hsla(0,0%,100%,.8) 6px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  position:relative;
+  top: -80px;
+  margin: 0 auto ;
+  margin-bottom: -80px;
+}
+&__author{
+  text-align: center;
+  color: $mainOrange;
+  font-weight: 300;
+  font-size: 1.8rem;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+&__company{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 0px;
+}
+p{
+  line-height: 1.6rem;
+
+}
+
+}

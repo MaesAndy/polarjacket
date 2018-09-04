@@ -1,0 +1,30 @@
+.wrapper{
+  padding-left: 18px;
+  padding-right: 18px;
+  max-width: 1236px;
+  margin: 0 auto;
+  overflow:hidden;
+
+  &__large-hero{
+    background-color: rgba(42, 61, 76, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+
+  &--medium{
+    max-width: 970px;
+  }
+  .wrapper{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &--b-margin{
+    margin-bottom: 1rem;
+  @mixin atSmall{
+      margin-bottom: 3.875rem;
+  }
+  }
+}
