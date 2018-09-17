@@ -19,6 +19,8 @@
     padding-left: 0px;
     padding-right: 20px;
     padding-top: 12px;
+
+
     }
   }
   a{
@@ -35,6 +37,13 @@
     background-size: 240%;
     -webkit-transition: all .6s;
     transition: all .6s;
+
+    @mixin atMedium{
+      &.is-current-link{
+        color: #fabb69;
+        font-weight: 500;
+      }
+    }
 
   }
   a:hover, a:active{

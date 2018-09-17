@@ -35,6 +35,12 @@
     margin-bottom: 1rem;
   }
 
+  &__medium-4{
+    .videos{
+      text-align:center;
+    }
+  }
+
 
 
   @mixin atMedium{
@@ -68,6 +74,10 @@
   &__medium-4{
     float: left;
     width: 33.33%;
+
+      .videos{
+        text-align:center;
+      }
   }
   /*Begin EQUUAL HEIHGT RULES */
 

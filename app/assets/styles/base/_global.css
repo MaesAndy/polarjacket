@@ -1,7 +1,9 @@
 body{
   font-family: 'Roboto', sans-serif;
   color: $mainBlue;
-  
+  position: relative;
+
+
 
 }
 
@@ -20,5 +22,55 @@ a{
 }
 
 #features{
-  color: $mainWhite;
+  color: $mainBlue;
+}
+
+section#stats {
+    display: none;
+}
+
+body{
+  padding: 0;
+  position:relative;
+
+  @mixin atMedium{
+    margin-left: 1.2vw;
+    margin-right: 1.2vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index:10;
+
+
+  }
+  @mixin atLarge{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index:10;
+
+
+  }
+  @mixin atVeryLarge{
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index:10;
+
+
+  }
+  @mixin atSuperLarge{
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    z-index:10;
+
+
+  }
+}
+
+h3.headline.headline--centered.headline--blue.headline--small.headline--narrow.headline--light.headline--b-margin-large {
+    font-size: 1.3rem;
 }

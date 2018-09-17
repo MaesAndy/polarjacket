@@ -2,6 +2,7 @@
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
+
 @import "modules/_large-hero";
 @import "modules/_wrapper";
 @import "modules/_btn";
@@ -17,3 +18,8 @@
 @import "modules/_site-header";
 @import "modules/_primary-nav";
 @import "modules/_TopArrow";
+@import "modules/_reveal-item";
+@import "modules/_modal";
+@import "modules/_chart";
+@import "modules/_videos";
+@import "modules/_modalvideo";

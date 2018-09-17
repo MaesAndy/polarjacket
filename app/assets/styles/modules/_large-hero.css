@@ -1,6 +1,10 @@
 .large-hero{
   position: relative;
-  border-bottom: 10px solid $mainOrange;
+  overflow: hidden;
+
+
+
+
 
 
   &__text-content{
@@ -23,6 +27,10 @@
   }
   &__image{
     display:block;
+    -webkit-animation: zoomin 10s infinite;
+    overflow:hidden !important;
+    position:relative;
+    z-index:-1;
   }
 
   &__title{

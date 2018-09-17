@@ -6,9 +6,13 @@ font-weight: 300;
 text-align:center;
 
 &--testimonials{
-  
+
   padding-bottom: 3.5rem;
   margin-top: 2rem;
+}
+
+&--blue{
+   color: $mainBlue;
 }
 
 @mixin atSmall{
@@ -20,14 +24,14 @@ strong{
 }
 &__icon{
 
-  display: block;
+  display: none;
   margin: 0 auto;
   margin-bottom: 20px;
 
   @mixin atSmall{
       margin-right: .5rem;
       margin-left: 0;
-      display: inline-block;
+      display: none;
       margin-bottom: 0px;
 
   }

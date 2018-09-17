@@ -7,9 +7,13 @@
     "doc": "docs"
   },
   "dependencies": {
+    "chart.js": "^2.7.2",
+    "gallery-js": "^1.0.0-alpha.1",
     "jquery": "^3.3.1",
-    "magnific-popup": "^1.1.0",
-    "normalize.css": "^8.0.0"
+    "jquery-smooth-scroll": "^2.2.0",
+    "modal-video": "^2.4.2",
+    "normalize.css": "^8.0.0",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.3",

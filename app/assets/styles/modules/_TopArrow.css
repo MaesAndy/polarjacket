@@ -1,7 +1,7 @@
 #return-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 15px;
+    right: 11px;
     background: rgba(235, 181, 99, 0.9);
     z-index:1000;
     width: 50px;
@@ -17,6 +17,12 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+
+    @mixin atMedium{
+      bottom: 45px;
+      right: 26px;
+    }
+
 }
 #return-to-top i {
     color: #fff;
